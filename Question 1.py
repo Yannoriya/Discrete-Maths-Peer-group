@@ -15,6 +15,6 @@ while run:
         run = False
 list_set = set(raw_list)
 if len(list_set) != len(raw_list):
-    print(f'False the set should {list_set}')
+    print(f'False the set should be {list_set}')
 else:
     print(f'True, the set is valid: {list_set}')
